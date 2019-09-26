@@ -58,8 +58,7 @@ def getRandomAccept():
   "Accept: text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1\r\n",
   ]
 
-  #return random.choice(acceptall)
-  return acceptall[1]
+  return random.choice(acceptall)
 
 
 def getProxy(run_proxy_type):
