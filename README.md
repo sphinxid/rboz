@@ -18,20 +18,20 @@ Disclaimer:
 
 ### Basic Usage (Direct Connection)
 ```bash
-python rboza.py <url> <threads> <http_mode>
+python rboz.py <url> <threads> <http_mode>
 ```
 Example:
 ```bash
-python rboza.py http://example.com 10 get
+python rboz.py http://example.com 10 get
 ```
 
 ### Using Proxies
 ```bash
-python rboza.py <url> <threads> <http_mode> --proxy-type <type> --proxy-file <file>
+python rboz.py <url> <threads> <http_mode> --proxy-type <type> --proxy-file <file>
 ```
 Example:
 ```bash
-python rboza.py http://example.com 10 get --proxy-type socks5 --proxy-file proxies.txt
+python rboz.py http://example.com 10 get --proxy-type socks5 --proxy-file proxies.txt
 ```
 
 ### Arguments
